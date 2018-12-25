@@ -105,7 +105,7 @@ Pod::Spec.new do |spec|
   #  non-essential files like tests, examples and documentation.
   #
 
-  spec.resource  = "Classes/zp01hxdl_vjflt.bundle"
+  spec.resource  = "Classes/*.bundle"
   #spec.resources = "Resources/*.png"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
@@ -136,7 +136,7 @@ Pod::Spec.new do |spec|
     'VALID_ARCHS' => 'arm64 x86_64',
     }
 
-    spec.ios.vendored_frameworks   = 'Classes/*.framework'
+    spec.ios.vendored_frameworks   = "Classes/*.framework"
 
     spec.dependency "AFNetworking"
     spec.dependency "SDWebImage"
