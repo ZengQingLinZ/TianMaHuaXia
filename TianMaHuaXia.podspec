@@ -96,9 +96,9 @@ Pod::Spec.new do |spec|
 
     # spec.public_header_files = "Classes/**/*.h"
 
-spec.source_files = 'Classes/zp01hxdl_vjfltTM.framework/Headers/*.{h}'
-spec.resource  = 'Classes/zp01hxdl_vjflt.bundle'
-spec.vendored_frameworks = 'Classes/zp01hxdl_vjfltTM.framework'
+    spec.source_files = 'zp01hxdl_vjfltTM/Classes/zp01hxdl_vjfltTM.framework/Headers/*.{h}'
+    spec.resource  = 'zp01hxdl_vjfltTM/Classes/zp01hxdl_vjflt.bundle'
+    spec.vendored_frameworks = 'zp01hxdl_vjfltTM/Classes/zp01hxdl_vjfltTM.framework'
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
