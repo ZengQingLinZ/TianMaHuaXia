@@ -1,0 +1,6 @@
+framework module zp01hxdl_vjfltTM {
+  umbrella header "zp01hxdl_vjfltTM.h"
+
+  export *
+  module * { export * }
+}
