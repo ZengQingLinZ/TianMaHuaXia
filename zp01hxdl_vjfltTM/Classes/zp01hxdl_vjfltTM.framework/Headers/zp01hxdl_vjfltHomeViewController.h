@@ -6,7 +6,7 @@
 //  Copyright © 2018年 Mac. All rights reserved.
 //
 
-#import "zp01hxdl_vjfltBaseViewController.h"
+#import <WMPageController.h>
 
 @interface zp01hxdl_vjfltHomeViewController : WMPageController
 
