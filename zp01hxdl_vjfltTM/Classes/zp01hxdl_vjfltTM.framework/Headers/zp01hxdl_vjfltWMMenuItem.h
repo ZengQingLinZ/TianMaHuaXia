@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 @class zp01hxdl_vjfltWMMenuItem;
 
-typedef NS_ENUM(NSUInteger, WMMenuItemState) {
-    WMMenuItemStateSelected,
-    WMMenuItemStateNormal,
+typedef NS_ENUM(NSUInteger, zp01hxdl_vjfltWMMenuItemState) {
+    zp01hxdl_vjfltWMMenuItemStateSelected,
+    zp01hxdl_vjfltWMMenuItemStateNormal,
 };
 
 NS_ASSUME_NONNULL_BEGIN

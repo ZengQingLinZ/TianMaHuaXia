@@ -223,9 +223,9 @@ extern NSString *const zp01hxdl_vjfltWMControllerDidFullyDisplayedNotification;
  *  Menu view 的样式，默认为无下划线
  *  Menu view's style, now has two different styles, 'Line','default'
  */
-@property (nonatomic, assign) WMMenuViewStyle menuViewStyle;
+@property (nonatomic, assign) zp01hxdl_vjfltWMMenuViewStyle menuViewStyle;
 
-@property (nonatomic, assign) WMMenuViewLayoutMode menuViewLayoutMode;
+@property (nonatomic, assign) zp01hxdl_vjfltWMMenuViewLayoutMode menuViewLayoutMode;
 
 /**
  *  进度条的颜色，默认和选中颜色一致(如果 style 为 Default，则该属性无用)
