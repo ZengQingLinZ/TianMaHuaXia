@@ -14,25 +14,25 @@
 @class zp01hxdl_vjfltWMPageController;
 
 /*
- *  WMPageController 的缓存设置，默认缓存为无限制，当收到 memoryWarning 时，会自动切换到低缓存模式 (WMPageControllerCachePolicyLowMemory)，并在一段时间后切换到 High .
-    收到多次警告后，会停留在到 WMPageControllerCachePolicyLowMemory 不再增长
+ *  WMPageController 的缓存设置，默认缓存为无限制，当收到 memoryWarning 时，会自动切换到低缓存模式 (zp01hxdl_vjfltWMPageControllerCachePolicyLowMemory)，并在一段时间后切换到 High .
+    收到多次警告后，会停留在到 zp01hxdl_vjfltWMPageControllerCachePolicyLowMemory 不再增长
  *
  *  The Default cache policy is No Limit, when recieved memory warning, page controller will switch mode to 'LowMemory'
     and continue to grow back after a while.
     If recieved too much times, the cache policy will stay at 'LowMemory' and don't grow back any more.
  */
-typedef NS_ENUM(NSInteger, WMPageControllerCachePolicy) {
-    WMPageControllerCachePolicyDisabled   = -1,  // Disable Cache
-    WMPageControllerCachePolicyNoLimit    = 0,   // No limit
-    WMPageControllerCachePolicyLowMemory  = 1,   // Low Memory but may block when scroll
-    WMPageControllerCachePolicyBalanced   = 3,   // Balanced ↑ and ↓
-    WMPageControllerCachePolicyHigh       = 5    // High
+typedef NS_ENUM(NSInteger, zp01hxdl_vjfltWMPageControllerCachePolicy) {
+    zp01hxdl_vjfltWMPageControllerCachePolicyDisabled   = -1,  // Disable Cache
+    zp01hxdl_vjfltWMPageControllerCachePolicyNoLimit    = 0,   // No limit
+    zp01hxdl_vjfltWMPageControllerCachePolicyLowMemory  = 1,   // Low Memory but may block when scroll
+    zp01hxdl_vjfltWMPageControllerCachePolicyBalanced   = 3,   // Balanced ↑ and ↓
+    zp01hxdl_vjfltWMPageControllerCachePolicyHigh       = 5    // High
 };
 
-typedef NS_ENUM(NSUInteger, WMPageControllerPreloadPolicy) {
-    WMPageControllerPreloadPolicyNever     = 0, // Never pre-load controller.
-    WMPageControllerPreloadPolicyNeighbour = 1, // Pre-load the controller next to the current.
-    WMPageControllerPreloadPolicyNear      = 2  // Pre-load 2 controllers near the current.
+typedef NS_ENUM(NSUInteger, zp01hxdl_vjfltWMPageControllerPreloadPolicy) {
+    zp01hxdl_vjfltWMPageControllerPreloadPolicyNever     = 0, // Never pre-load controller.
+    zp01hxdl_vjfltWMPageControllerPreloadPolicyNeighbour = 1, // Pre-load the controller next to the current.
+    zp01hxdl_vjfltWMPageControllerPreloadPolicyNear      = 2  // Pre-load 2 controllers near the current.
 };
 
 NS_ASSUME_NONNULL_BEGIN
@@ -259,10 +259,10 @@ extern NSString *const zp01hxdl_vjfltWMControllerDidFullyDisplayedNotification;
 @property (nonatomic, assign) BOOL rememberLocation __deprecated_msg("Because of the cache policy,this property can abondon now.");
 
 /** 缓存的机制，默认为无限制 (如果收到内存警告, 会自动切换) */
-@property (nonatomic, assign) WMPageControllerCachePolicy cachePolicy;
+@property (nonatomic, assign) zp01hxdl_vjfltWMPageControllerCachePolicy cachePolicy;
 
 /** 预加载机制，在停止滑动的时候预加载 n 页 */
-@property (nonatomic, assign) WMPageControllerPreloadPolicy preloadPolicy;
+@property (nonatomic, assign) zp01hxdl_vjfltWMPageControllerPreloadPolicy preloadPolicy;
 
 /** Whether ContentView bounces */
 @property (nonatomic, assign) BOOL bounces;
