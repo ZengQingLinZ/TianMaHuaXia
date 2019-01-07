@@ -36,8 +36,8 @@ typedef NS_ENUM(NSUInteger, WMPageControllerPreloadPolicy) {
 };
 
 NS_ASSUME_NONNULL_BEGIN
-extern NSString *const WMControllerDidAddToSuperViewNotification;
-extern NSString *const WMControllerDidFullyDisplayedNotification;
+extern NSString *const zp01hxdl_vjfltWMControllerDidAddToSuperViewNotification;
+extern NSString *const zp01hxdl_vjfltWMControllerDidFullyDisplayedNotification;
 @protocol WMPageControllerDataSource <NSObject>
 @optional
 
