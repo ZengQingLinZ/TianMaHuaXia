@@ -18,6 +18,7 @@ FOUNDATION_EXPORT const unsigned char zp01hxdl_vjfltTMVersionString[];
 #import <zp01hxdl_vjfltTM/zp01hxdl_vjfltTXCarouselCellModel.h>
 #import <zp01hxdl_vjfltTM/zp01hxdl_vjfltTXCarouselCollectionViewCell.h>
 
+//#import <SDWebImage/UIImageView+WebCache.h>
 // In this header, you should import all the public headers of your framework using statements like #import <zp01hxdl_vjfltTM/PublicHeader.h>
 
 
