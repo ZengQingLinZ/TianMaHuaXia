@@ -192,6 +192,7 @@ SWIFT_CLASS("_TtC16zp01hxdl_vjfltTM28zp01hxdl_vjfltCourseCardView")
 @interface zp01hxdl_vjfltCourseCardView : UIView
 @property (nonatomic) NSInteger selectedIndex;
 @property (nonatomic, copy) NSArray<NSString *> * _Nonnull models;
+@property (nonatomic, copy) void (^ _Nullable selectedCourseClosure)(NSString * _Nonnull);
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)show;

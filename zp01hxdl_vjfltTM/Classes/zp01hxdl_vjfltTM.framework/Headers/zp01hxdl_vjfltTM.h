@@ -15,10 +15,8 @@ FOUNDATION_EXPORT double zp01hxdl_vjfltTMVersionNumber;
 //! Project version string for zp01hxdl_vjfltTM.
 FOUNDATION_EXPORT const unsigned char zp01hxdl_vjfltTMVersionString[];
 
-//#import "zp01hxdl_vjfltTXCarouselCellModel.h"
-//#import "zp01hxdl_vjfltTXCarouselCollectionViewCell.h"
-//#import "zp01hxdl_vjflttianma_huaxia-Bridging-Header.h"
-#import <zp01hxdl_vjfltTM/zp01hxdl_vjflttianma_huaxia-Bridging-Header.h>
+#import <zp01hxdl_vjfltTM/zp01hxdl_vjfltTXCarouselCellModel.h>
+#import <zp01hxdl_vjfltTM/zp01hxdl_vjfltTXCarouselCollectionViewCell.h>
 
 // In this header, you should import all the public headers of your framework using statements like #import <zp01hxdl_vjfltTM/PublicHeader.h>
 
