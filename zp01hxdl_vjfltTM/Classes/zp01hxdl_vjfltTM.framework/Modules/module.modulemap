@@ -4,8 +4,3 @@ framework module zp01hxdl_vjfltTM {
   export *
   module * { export * }
 }
-
-module zp01hxdl_vjfltTM.Swift {
-    header "zp01hxdl_vjfltTM-Swift.h"
-    requires objc
-}
