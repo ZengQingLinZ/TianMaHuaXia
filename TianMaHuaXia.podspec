@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TianMaHuaXia"
-  spec.version      = "0.0.26"
+  spec.version      = "0.0.27"
   spec.summary      = "天马华夏"
 
   # This description is used to generate tags and improve search results.
@@ -141,7 +141,7 @@ Pod::Spec.new do |spec|
     'VALID_ARCHS' => 'arm64 x86_64',
     }
 
-
+    spec.dependency "IAPHelper"
     spec.dependency "ZQLTest"
     spec.dependency "AFNetworking"
     spec.dependency "MJRefresh"
