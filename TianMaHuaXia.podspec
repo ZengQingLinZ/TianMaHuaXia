@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TianMaHuaXia"
-  spec.version      = "0.0.32"
+  spec.version      = "0.0.33"
   spec.summary      = "天马华夏"
 
   # This description is used to generate tags and improve search results.
